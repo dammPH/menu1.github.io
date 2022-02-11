@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+    .container{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        border: solid 10px  #f77f00;
+        background-color: #f77f00;
+    }
+        header{
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            width: 100%;
+             background-image: url(multimedia/back.jpg);
+            background-size: cover; 
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            border-bottom: solid 50px #f77f00;
+        }
+            h1{
+                font-size: 60px;
+                color: #f70000;
+                border-bottom: solid 3.5px #f70000;
+                -webkit-text-stroke: 2px #f70000;
+                 color: #f780007c;
+                 font-family: 'Gideon Roman', cursive;
+                 margin-bottom: 0;
+                }
+            header a{
+                color: #f70000;
+                text-decoration: none;
+                font-size: 50px;
+                margin-top: 60px;
+                margin-bottom: 0px;
+            }
+            header p{
+                font-size: 22px;
+                margin-top: 5px;
+                color: #f70000;
+                font-family: 'Gideon Roman', cursive;
+            }
+        main{
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-image: url(multimedia/back.jpg);
+            background-size: cover;
+        }
+            main div{
+                background-color: #f77f00;
+                width: 100%;
+            }
+            section{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+            }
+                h2{
+                    background-color: #f77f00;
+                    padding: 5px;
+                    color:#ffba08;
+                    font-size: 30px;
+                   
+                    font-family: 'Gideon Roman', cursive;
+                }
+                article{
+                        display: flex;
+                        flex-flow: column nowrap;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        padding-top: 40px;
+                }
+                    article img{
+                        width: 200px;
+                        border-radius: 100px;
+                    }
+                    article p{
+                        margin: 35px;
+                        margin-bottom: 50px;
+                        font-size: 30px;
+                        background-color: #f77f00;
+                        padding: 10px;
+                        color: #ffba08;
+                        font-family: 'Gideon Roman', cursive;
+                    }
+            nav{
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+                height: 40px;
+                margin-bottom: 0;
+                position: sticky;
+                top: 1px;
+                z-index: 100;
+                background-color: transparent;
+            }
+            .ig{
+                background-color: green;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .ig a{
+                    color: white;
+                }
+            h4{
+                background-color: white;
+                padding-left: 30px;
+                padding-right: 30px;
+                font-family: 'Gideon Roman', cursive;
+            }
+            .wsp{
+                background-color: #f70000;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .wsp a{
+                color: white;
+            }
+           
+        footer{
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-color: #f77f00;
+            padding: 20px;
+        }
+            .t2{
+                font-family: 'Gideon Roman', cursive;
+                font-size: 20px;
+            }
